@@ -1,0 +1,148 @@
+name = input("Type your name: ")
+print("\nWelcome", name, "to this adventure!")
+
+
+while True:
+    answer = input("It's your regular working day.\n You can take the subway or you can ride your bike.\n Which way do you chose?\n Please type subway or bike: ").lower()
+    if answer == "subway":
+        print("\nGreat choice!\n You might actually get there!\n")
+        while True:
+            answer1 = input("You got on the subway and you see an empty seat next to a standing old lady.\n Are you gonna sit down?\n Please type yes or no: ").lower()
+            if answer1 == "yes":
+                print("\nGreat choice!\n Now you can read a book or something!\n")
+                while True:
+                    answer3 = input("You get off the subway and see a nice jianbing shop.\n Do you get one before walking to work?\n Please type yes or no: ").lower()
+                    if answer3 == "yes":
+                        print("\nBest decision of your life!\n Now you can have a great day!\n")
+                        break
+                    elif answer3 == "no":
+                        print("\nThat's just fucking stupid!\n You'll have a shit day and an even worse boiled chicken for dinner)\n")
+                        break
+                    else:
+                        print("\nyes or no, you idiot!\n")
+                        continue
+                break
+            elif answer1 == "no":
+                print("\nHaha!\n MORON!\n The bitch was actually 19:)\n")
+                while True:
+                    answer4 = input("You're standing there, pressed from all sides by people.\n Suddenly you get a notification from sexysocial.\n Do you open the message?\n Please type yes or no: ").lower()
+                    if answer4 == "yes":
+                        print("\nReally!?!?!?\n You should know by now that you should never do that!\n Big hairy pussy on your screen!\n")
+                        while True:
+                            answer5 = input("You get off the subway and see a nice jianbing shop.\n Do you get one before walking to work?\n Please type yes or no: ").lower()
+                            if answer5 == "yes":
+                                print("\nBest decision of your life!\n Now you can have a great day!\n")
+                                break
+                            elif answer5 == "no":
+                                print(
+                                    "\nThat's just fucking stupid!\n You'll have a shit day and an even worse boiled chicken for dinner)\n")
+                                break
+                            else:
+                                print("\nyes or no, you idiot!\n")
+                                continue
+                        break
+                    elif answer4 == "no":
+                        print("\nUnexpectedly smart from you, sunshine!\nYou just saved your face!\n")
+                        while True:
+                            answer5 = input("You get off the subway and see a nice jianbing shop.\n Do you get one before walking to work?\n Please type yes or no: ").lower()
+                            if answer5 == "yes":
+                                print("\nBest decision of your life!\n Now you can have a great day!\n")
+                                break
+                            elif answer5 == "no":
+                                print(
+                                    "\nThat's just fucking stupid!\n You'll have a shit day and an even worse boiled chicken for dinner)\n")
+                                break
+                            else:
+                                print("\nyes or no, you idiot!\n")
+                                continue
+                        break
+                    else:
+                        print("\nyes or no, you idiot!\n")
+                        continue
+
+                break
+            else:
+                print("\nyes or no, you idiot!\n")
+                continue
+
+        break
+    elif answer == "bike":
+        print("\nOoooof! Ambitious that!\n")
+        while True:
+            answer2 = input("You get to your bike, but it doesn't start.\n Do you keep trying, or you decide that it's a great day to stay at home?\n Please type try again or fuck it:  ").lower()
+            if answer2 == "try again":
+                print("\nThat's 20 minutes well spent.\n Go find a shifu!\n")
+                while True:
+                    answer6 = input("You found a shifu and he tells you that you have to change your battery.\nWhat do you do?\nPlease type buy or not buy: ").lower()
+                    if answer6 == "buy":
+                        print("\nGreat investment!\n Tomorrow you're gonna buy something else!\n")
+                        break
+                    elif answer6 == "not buy":
+                        print("\nFinally you realised that the bike is shit! Go home and start looking for a new one!\n")
+                        while True:
+                            answer7 = input(
+                                "You got back home and opened your laptop.\nYou can watch Gleb's videos or learn programming.\n what do you chose?\nPlease type code or video: ").lower()
+                            if answer7 == "code":
+                                print(
+                                    "\nPoor bastard!\nYou'll forever be just as miserable, as the programming tutorial guy!\n")
+                                break
+                            elif answer7 == "video":
+                                print(
+                                    "\nThe best choice you've ever made!\nGleb's talent will inspire you to stop being shit!\n")
+                                break
+                            else:
+                                print("\ncode or video, you idiot!\n")
+                                continue
+                        break
+                    else:
+                        print("\nbuy or not buy, you idiot!\n")
+                        continue
+                break
+
+            elif answer2 == "fuck it":
+                print("\nLegend! Time for you to learn some code!\n")
+                while True:
+                    answer7 = input("You got back home and opened your laptop.\nYou can watch Gleb's videos or learn programming.\n what do you chose?\nPlease type code or video: ").lower()
+                    if answer7 == "code":
+                        print("\nPoor bastard!\nYou'll forever be just as miserable, as the programming tutorial guy!\n")
+                        break
+                    elif answer7 == "video":
+                        print("\nThe best choice you've ever made!\nGleb's talent will inspire you to stop being shit!\n")
+                        break
+                    else:
+                        print("\ncode or video, you idiot!\n")
+                        continue
+                break
+
+            else:
+                print("\ntry again or fuck it, you idiot!\n")
+                continue
+        break
+    else:
+        print("\nChose subway or bike, you idiot!\n")
+        continue
+
+print("\nThank you for taking this Adventure!\n")
+while True:
+    rate = input("Please rate this code from 0 - 5: ")
+    if rate == "0":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    elif rate == "1":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    elif rate == "2":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    elif rate == "3":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    elif rate == "4":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    elif rate == "5":
+        print("\nThat's way too low for such a great code!\nYou can fuck off now!")
+        break
+    else:
+        print("\nJust type a number from 0 - 5 FFS")
+quit()
